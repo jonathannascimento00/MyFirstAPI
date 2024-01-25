@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyFirstAPI.Model;
+using MyFirstAPI.Domain.Model;
 
 namespace MyFirstAPI.Infrastructure
 {
@@ -9,10 +9,10 @@ namespace MyFirstAPI.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql(
-                "Server=server;" +
-                "Port=5432; Database=thedatabasename;" +
-                "User Id = youruser;" +
-                "Password=youruserpassword"
-            );
+                "Server=localhost;" +
+                "Port=5432; Database=database;" +
+                "User Id = user;" +
+				"Password=password"
+			);
     }
 }

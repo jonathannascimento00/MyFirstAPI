@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MyFirstAPI.Model
+namespace MyFirstAPI.Domain.Model
 {
     [Table("employee")]
     public class Employee

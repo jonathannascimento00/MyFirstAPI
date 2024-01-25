@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyFirstAPI.Model;
-using MyFirstAPI.Services;
+using MyFirstAPI.Domain.Model;
+using MyFirstAPI.Application.Services;
 
-namespace MyFirstAPI.Controllers
+namespace MyFirstAPI.WebApi.Controllers
 {
     [ApiController]
     [Route("api/v1/auth")]

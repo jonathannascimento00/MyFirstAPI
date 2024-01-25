@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using MyFirstAPI.Model;
-using MyFirstAPI.ViewModel;
+using MyFirstAPI.Domain.Model;
+using MyFirstAPI.Application.ViewModel;
 
-namespace MyFirstAPI.Controllers
+namespace MyFirstAPI.WebApi.Controllers
 {
     [ApiController]
     [Route("api/v1/employee")]

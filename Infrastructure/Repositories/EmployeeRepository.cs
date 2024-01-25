@@ -1,6 +1,6 @@
-﻿using MyFirstAPI.Model;
+﻿using MyFirstAPI.Domain.Model;
 
-namespace MyFirstAPI.Infrastructure
+namespace MyFirstAPI.Infrastructure.Repositories
 {
     public class EmployeeRepository : IEmployeeRepository
     {

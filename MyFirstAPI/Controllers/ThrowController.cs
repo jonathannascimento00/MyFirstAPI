@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyFirstAPI.Controllers
+namespace MyFirstAPI.WebApi.Controllers
 {
 	[ApiExplorerSettings(IgnoreApi = true)]
 	public class ThrowController : ControllerBase

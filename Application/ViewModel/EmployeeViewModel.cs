@@ -1,4 +1,6 @@
-﻿namespace MyFirstAPI.ViewModel
+﻿using Microsoft.AspNetCore.Http;
+
+namespace MyFirstAPI.Application.ViewModel
 {
     public class EmployeeViewModel
     {

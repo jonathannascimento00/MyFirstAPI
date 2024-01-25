@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using MyFirstAPI.Infrastructure;
-using MyFirstAPI.Model;
+using MyFirstAPI.Infrastructure.Repositories;
+using MyFirstAPI.Domain.Model;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-var key = Encoding.ASCII.GetBytes(MyFirstAPI.Key.Secret);
+var key = Encoding.ASCII.GetBytes(MyFirstAPI.Application.Key.Secret);
 
 // Add services to the container.
 

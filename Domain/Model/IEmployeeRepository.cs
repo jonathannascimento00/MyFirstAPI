@@ -1,4 +1,4 @@
-﻿namespace MyFirstAPI.Model
+﻿namespace MyFirstAPI.Domain.Model
 {
     public interface IEmployeeRepository
     {
